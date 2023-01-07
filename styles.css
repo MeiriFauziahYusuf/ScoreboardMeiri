@@ -1,0 +1,74 @@
+.btn {
+  width: 100%;
+  height: 500px;
+  font-size: 200px;
+  font-family: rubik;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#team1 {
+  background-color: #090B0D;
+}
+
+#team2 {
+  background-color: #222325;
+}
+
+.btncontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+}
+
+.name_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team1>.player{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.team2>.player{
+  display: grid;
+  grid-template-columns: 90% 10%; 
+}
+
+.team1>.player>.position{
+  background-color: #FFD600;
+  padding: 6px;
+  text-align: center;
+  color: #090B0D;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.team1>.player>.name{
+  background-color: #090B0D;
+  color: #fff;
+  padding: 6px;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.team2>.player>.name{
+  background-color: #222325; 
+  color: #fff;
+  padding: 6px;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: right;
+}
+
+.team2>.player>.position{
+  color: #090B0D;
+  background-color:#FFD600;
+  padding: 6px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 100;
+}
